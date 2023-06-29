@@ -18,7 +18,7 @@
 - boto3: aws python sdk for create,configure, and manage AWS services.
 <br/>
 
-### Dataset
+### III. Dataset
 - The dataset is provided by Amazon about COVID-19 case tracking data from Johns Hopkins and The New York Times, hospital bed availability from Definitive Healthcare, and over 45,000 research articles about COVID-19 and related coronaviruses from the Allen Institute for AI.
 
 
@@ -26,10 +26,10 @@
 
 
 
-### III. Architecture
+### IV. Architecture
 ![alt Architecture](/architecture.drawio.png)
 
-### IV. Flow
+### V. Flow
 1. Dataset is stored in the S3 storage
 2. Create and run Crawlers on the data is updaloed in S3 storage. 
 3. This crawler will read file in S3 and save data into database of Athena service with table format. Then analysing data using AWS Athena query editor
@@ -38,8 +38,8 @@
 6. With python use libs redshift connecter to copy data from S3 to Redshift
 7. Use Redshift for explore data, gain more insights and create visualization chart
 
-### ER-Data Model
+### VI. ER-Data Model
 ![alt ER-Data model](ER.drawio.png)
 
-### Dimensional Model
-![alt ER-Data model](Dimension_Model.drawio.png)
+### VII. Dimensional Model
+![alt Demensional Model](Dimension_Model.drawio.png)
