@@ -42,4 +42,4 @@
 ![alt ER-Data model](ER.drawio.png)
 
 ### VII. Dimensional Model
-![alt Demensional Model](Dimension_Model.drawio.png)
+![alt Demensional Model](Dimension_model.drawio.png)
